@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlotta's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Optional styling for grid visualization */
+        .col-border {
+            border: 1px solid #ddd;
+            min-height: 100px;
+            text-align: center;
+            padding-top: 15px;
+            background-color: #f8f9fa;
+        }
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .nav-link {
+            color: #ffffff;
+        }
+        .intro-text {
+            padding: 20px;
+            background-color: #f0f0f5;
+        }
+        .gallery img {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#">Carlotta's Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Info</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+    <!-- Header Section -->
+    <header class="row mb-4" id="home">
+        <div class="col-12 text-center">
+            <h1>Welcome to My Website</h1>
+            <p class="lead">Creativity and Timeless Elegance</p>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <div class="row mb-4">
+        <div class="col-12 intro-text">
+            <p>Welcome to my world of creativity and timeless elegance. Inspired by the beauty of classical art, especially Greek and Roman sculptures, I blend traditional aesthetics with modern innovation.</p>
+            <p>Explore my journey through art, inspiration, and creativity, and discover the balance between classic sophistication and contemporary expression.</p>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <section class="row mb-4" id="gallery">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="col-md-4 col-12 mb-3">
+            <img src="image1.jpg" alt="Art Image 1" class="img-fluid gallery">
+        </div>
+        <div class="col-md-4 col-12 mb-3">
+            <img src="image2.jpg" alt="Art Image 2" class="img-fluid gallery">
+        </div>
+        <div class="col-md-4 col-12 mb-3">
+            <img src="image3.jpg" alt="Art Image 3" class="img-fluid gallery">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="row mb-4" id="about">
+        <h2 class="text-center mb-4">About Me</h2>
+        <div class="col-12 text-center">
+            <p>I am Carlotta, a designer with a passion for classical art and modern innovation. My work reflects a balance of elegance and functionality, inspired by timeless aesthetics.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="row mb-4" id="contact">
+        <h2 class="text-center mb-4">Contact Info</h2>
+        <div class="col-12 text-center">
+            <p>Email: z.carlyotta@gmail.com</p>
+            <button class="btn btn-primary">Get in Touch</button>
+        </div>
+    </section>
+   
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+    <p>&copy; 2024 Carlotta's Website</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
